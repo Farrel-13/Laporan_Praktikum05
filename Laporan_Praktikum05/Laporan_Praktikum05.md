@@ -712,7 +712,7 @@ int main()
 
 #### Output 1
 
-![Screenshot Output Unguided 1](https://github.com/Farrel-13/Laporan_Praktikum05/blob/main/ouput/outputno123.png?raw=true)
+![Screenshot Output Unguided 1](https://github.com/Farrel-13/Laporan_Praktikum05/blob/main/foto_output/ouputno123.png?raw=true)
 
 
 Program ini mengimplementasikan Singly Linked List menggunakan tiga file, yaitu `Singlylist.h` untuk deklarasi struktur dan fungsi, `Singlylist.cpp` untuk implementasi fungsi, serta `main.cpp` sebagai program utama. Fungsi `createList()` digunakan untuk membuat list kosong, sedangkan `alokasi()` membuat node baru yang berisi nilai integer. Fungsi `insertFirst()` menambahkan setiap node pada awal list sehingga urutan data menjadi `9 12 8 0 2`, sesuai dengan soal latihan Modul 5. Selanjutnya, fungsi `printInfo()` digunakan untuk menampilkan seluruh elemen, `findElm()` untuk mencari elemen bernilai `8`, dan `totalInfo()` untuk menghitung jumlah seluruh nilai dalam list. Hasil pencarian menunjukkan bahwa nilai `8` ditemukan, sedangkan hasil penjumlahan seluruh elemen adalah `31`. Setelah seluruh proses selesai, node dihapus dari memori untuk mencegah penggunaan memori yang tidak diperlukan.
